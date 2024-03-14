@@ -12,20 +12,20 @@ public class Main {
 
         int naturalNumber = scanner.nextInt();
 
-        if(naturalNumber < 1 || naturalNumber > 5) {
+        if (naturalNumber < 1 || naturalNumber > 5) {
             System.out.println("Your number is not in the specified range!");
-        } else if(naturalNumber == 1) {
+        } else if (naturalNumber == 1) {
             System.out.println("Hi, how are you doing?");
-        } else if(naturalNumber == 2) {
+        } else if (naturalNumber == 2) {
             // The third error is in this block
             System.out.println("Have a good day!");
-        } else if(naturalNumber == 3) {
+        } else if (naturalNumber == 3) {
             System.out.println("You're very good at fixing bugs.");
-        } else if(naturalNumber == 4) {
-                System.out.println("You will become a good programmer!");
-            } else {
-                System.out.println("See you soon!");
-            }
-
+        } else if (naturalNumber == 4) {
+            System.out.println("You will become a good programmer!");
+        } else {
+            System.out.println("See you soon!");
         }
+
     }
+}
