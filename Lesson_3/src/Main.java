@@ -17,13 +17,13 @@ public class Main {
         double height = new Scanner(System.in).nextDouble();
         double summ = (weight / (height * height));
         if ( summ < 18.5) {
-            System.out.println("Вес - " + summ + " кг" + "\nНедостаточный вес: " + (18.5 - summ) + " кг" + "\nBMI менее 18,5 ");
+            System.out.printf("BMI  - " + ("%f%n" + summ) + " менее 18,5" + "\nНедостаточный BMI: " + (18.5 - summ) );
         } else if ( summ >= 18.5 && summ < 24.9 ) {
-            System.out.println("Вес " + summ + " кг" + "\nНормальный вес \nBMI от 18,5 до 24,9");
+            System.out.println("BMI " + summ + "\nНормальный BMI \nBMI от 18,5 до 24,9");
         } else if ( summ >= 24.9 && summ < 29.9 ) {
-            System.out.println("Вес - " + summ + " кг" + "\nИзбыточный вес: " + (summ - 24.9 ) + " кг" + "\nBMI от 24,9 до 29,9");
+            System.out.println("BMI - " + summ + "\nИзбыточный BMI: " + (summ - 24.9 ) + "\nBMI от 24,9 до 29,9");
         } else {
-            System.out.println("Вес - " + summ + " кг" + "\nОжирение: " + (summ - 29.9 ) + " кг" + "\nBMI от 30 и выше");
+            System.out.println("BMI - " + summ + "\nОжирение BMI: " + (summ - 29.9 ) + "\nBMI от 29,9 и выше");
         }
     }
 }
