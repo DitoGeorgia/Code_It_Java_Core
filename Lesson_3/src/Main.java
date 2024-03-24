@@ -26,13 +26,13 @@ public class Main {
         double weight4 = summ4 * weight / summ;
         double weight41 = weight4 + 1;
         if (summ < 18.5) {
-            System.out.printf("BMI - " + "%.1f" + "  менее 18,5" + "\nНедостаточный BMI: " + "%.1f" + "\nНедостаточный Вес: ~ " + "%.0f" + "-%.0f" + " кг",summ,summ2,weight2,weight21);
+            System.out.printf("BMI - " + "%.1f" + "  менее 18,5" + "\nНедостаточный BMI: " + "%.1f" + "\nНедостаточный Вес: ~ " + "%.0f" + "-%.0f" + " кг", summ, summ2, weight2, weight21);
         } else if (summ >= 18.5 && summ < 24.9) {
-            System.out.printf("BMI - " + "%.1f" + "  Нормальный BMI от 18,5 до 24,9" + "\nИзбыточный Вес: 0 кг"  ,summ);
+            System.out.printf("BMI - " + "%.1f" + "  Нормальный BMI от 18,5 до 24,9" + "\nИзбыточный Вес: 0 кг", summ);
         } else if (summ >= 24.9 && summ < 29.9) {
-            System.out.printf("BMI - " + "%.1f" + "  от 24,9 до 29,9 избыточный"+ "\nИзбыточный BMI: " + "%.1f" + "\nИзбыточный Вес: " + "%.0f" + "-%.0f" + " кг",summ,summ3,weight3,weight31);
+            System.out.printf("BMI - " + "%.1f" + "  от 24,9 до 29,9 избыточный" + "\nИзбыточный BMI: " + "%.1f" + "\nИзбыточный Вес: " + "%.0f" + "-%.0f" + " кг", summ, summ3, weight3, weight31);
         } else {
-            System.out.printf("BMI - " + "%.1f" + "  от 29,9 и выше ожирение"+ "\nИзбыточный BMI: " + "%.1f" + "\nИзбыточный Вес: " + "%.0f" + "-%.0f" + " кг" + "\tСтадия \"Ожирения\"",summ,summ4,weight4,weight41);
+            System.out.printf("BMI - " + "%.1f" + "  от 29,9 и выше ожирение" + "\nИзбыточный BMI: " + "%.1f" + "\nИзбыточный Вес: " + "%.0f" + "-%.0f" + " кг" + "\tСтадия \"Ожирения\"", summ,summ4,weight4,weight41);
         }
     }
 }
